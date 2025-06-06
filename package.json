@@ -1,0 +1,16 @@
+{
+  "name": "chat4men-2025",
+  "version": "1.0.0",
+  "description": "Chat4Men 2025 - P2P chat voor mannen met betalingssysteem en juridische dekking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.2",
+    "simple-peer": "^9.11.1",
+    "stripe": "^11.17.0",
+    "dotenv": "^16.0.0"
+  }
+}
